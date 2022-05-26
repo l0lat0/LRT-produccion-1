@@ -1,0 +1,85 @@
+
+nav ul li a{
+font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+a: hover {color: #FFFFFF;} ;
+}
+.gris{
+	background-color: white;
+	height: flex;
+	width: 33%;
+}
+
+.azul{
+	background-color: white;
+	height: 150px;
+	width:  88%;
+	justify-content: left;
+}
+.aguamarina{
+	background-color: white;
+	height: 150px;
+	width:  33%;
+}
+header{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: slategrey;
+display: flex;
+	justify-content: safe center;
+	padding:  5%;
+}
+article{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: slategrey;
+	display: flex;
+justify-content: safe center;
+padding: 5%;	
+text-align: justify;
+}
+h1{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 30px;
+	color: midnightblue;
+	justify-content: safe left;
+padding: 5%;	
+text-align: justify;
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: slategrey;
+justify-content: safe center;
+padding: 5%;	
+text-align: justify;
+}
+h3{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: slategrey;
+justify-content: safe center;
+padding: 5%;	
+text-align: justify;
+}
+h4{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: slategrey;
+justify-content: safe center;
+padding: 5%;	
+text-align: justify;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: slategrey;
+justify-content: safe center;
+padding: 5%;	
+text-align: justify;
+}
+footer{
+	display: flex;
+	justify-content: safe center;
+	padding:  5%;
+}

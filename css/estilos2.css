@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: F8F6F6;
+}
+header{
+	padding-top: 2%;
+	padding-right: 7%;
+	padding-bottom: 2%;
+	padding-left: 7%;
+	display: flex;
+	justify-content: space-between;
+}
+header img {
+	height: 2rem;
+	width: auto;
+}
+nav ul{
+	margin-top: 1%;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a{
+	font-size: 1.2rem;
+	padding-right: 3rem;
+	text-transform: lowercase;
+}
+a{
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5rem;
+	color: darkblue;
+}
+section article {
+	padding-top: 2%;
+	padding-right: 7%;
+	padding-bottom: 1%;
+	padding-left: 7%;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2rem;
+	color: darkblue;
+	text-transform: uppercase;
+	text-shadow: black;
+	display: flex;
+	padding-left: 2%;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.fondo{
+	background-image: url("../imagenes/OXMAN-OFF.png");
+
+	width: 100%;
+	height: auto;
+	object-position: left;
+	padding-left: 10%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.fondo_secundario{
+	width: 33%;
+	height: auto;
+	object-position: left;
+	padding-top: 1%;
+	padding-left: 5%;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: darkblue;
+	text-align: justify;
+	padding-right: 5%;
+}
+.foto_nerixlab {
+	width: 100%;
+	height: auto;
+}
+.primero{
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: darkblue;
+	text-align: right;
+	width: 45%;
+	padding-top: 10%;
+}
+.segundo {
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: darkblue;
+	text-align: left;
+}
+.tercero{
+text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: darkblue;
+	text-align: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	object-position: center;
+}
+.carrete div {
+	padding-top: 30%;
+}
+.carrete img{
+	width: 100%;
+	padding: 2%;
+}
+.carrete a div img 
+{
+
+}
+
+.informacion{
+	width: 33%;
+	height: auto;
+	object-position: left;
+	padding-top: 1%;
+	padding-left: 1%;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: darkblue;
+	text-align: center;
+	padding-right: 5%;
+	border-color: darkblue;
+}
+footer{
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 150px;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: darkblue;
+}
