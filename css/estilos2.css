@@ -120,10 +120,6 @@ text-decoration: none;
 	width: 100%;
 	padding: 2%;
 }
-.carrete a div img 
-{
-
-}
 
 .informacion{
 	width: 33%;
@@ -141,7 +137,15 @@ text-decoration: none;
 	border-color: darkblue;
 }
 .formulario {
-
+	object-position: left;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1rem;
+	color: darkblue;
+	text-align: left;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 footer{
 	display: flex;
