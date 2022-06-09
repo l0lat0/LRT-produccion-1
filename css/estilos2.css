@@ -171,11 +171,23 @@ section {
 }
 .fondo{
 	background-image: url("../imagenes/OXMAN-OFF.png");
-	width: 100%;
 	height: 250px;
-	object-position: left;
-	padding-left: 10%;
-	background-repeat: no-repeat;
-	background-size: contain;
+}
+.fondo_secundario{
+	width: 100%;
+	display: block;
+	
+}
+.primero{
+	width: 100%;
+	display: block;
+}
+.segundo {
+	width: 100%;
+	display: block;
+}
+.tercero{
+	width: 100%;
+	display: block;
 }
 }
