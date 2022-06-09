@@ -190,4 +190,15 @@ section {
 	width: 100%;
 	display: block;
 }
+.informacion{
+	width: 100%;
+	height: auto;
+	object-position: center;
+	display: block;
+	text-decoration: none;
+}
+footer{
+	padding-top: 3rem;
+	margin-right: 1%;
+	max-width: 1,5rem;
 }
