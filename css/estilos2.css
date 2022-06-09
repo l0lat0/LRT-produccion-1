@@ -60,7 +60,6 @@ h1 {
 }
 .fondo{
 	background-image: url("../imagenes/OXMAN-OFF.png");
-
 	width: 100%;
 	height: auto;
 	object-position: left;
@@ -120,7 +119,13 @@ text-decoration: none;
 	width: 100%;
 	padding: 2%;
 }
-
+.icon {
+	display: none;
+}
+@media screen and (max-width: 480px) {
+nav ul { display: none; }
+.icon { display: block;  }
+}
 .informacion{
 	width: 33%;
 	height: auto;
