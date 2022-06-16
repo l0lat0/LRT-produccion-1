@@ -15,18 +15,19 @@
 		<a href="index.html">
 			<img src="imagenes/abstract_logo_este.png" alt="logo Abstract">
 		</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		
+	</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
  		</a>
-	</div>
-		<nav id="navegador">
+		<nav id="navegador" class="navegador">
 			
 		<ul>
 		<li><a href= "index.html" >resumen</a></li>
 		<li><a href= "prensa.html" >prensa</a></li>
 		<li><a href= "proyectos.html" >proyectos</a></li>
 		<li><a href= "information.html" >info</a></li>
-		<li><a href="form">formulario</li>
+		<li><a href="form">formulario</a></li>
 		</ul>
 	</nav>
 
@@ -86,7 +87,7 @@
 <script type="text/javascript">
 	function myFunction (){
 let x = document.getElementById ('navegador');
-	if (x.className !== 'responsive'){
+	if (x.className !== 'navegador responsive'){
 		x.className = 'navegador responsive';
 	}
 	else {

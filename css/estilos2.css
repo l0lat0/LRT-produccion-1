@@ -51,7 +51,7 @@ h1 {
 	color: darkblue;
 	text-transform: uppercase;
 	text-shadow: black;
-	display: flex;
+	display: block;
 	padding-left: 2%;
 	text-align: left;
 	margin-right: auto;
@@ -172,7 +172,7 @@ section {
 	width: 100%;
 }
 header div, header a{
-	flex: 1 o 50%;
+	flex: 1 0 50%;
 }
 header nav {
 	flex-basis: 100%;
@@ -186,13 +186,14 @@ header nav {
 	display: block;
 	
 }
-nav .responsive ul {
+nav .navegadoresponsive ul {
 	display: block;
 	width: 100%;
 }
-.primero div{
+.primero{
 	width: 100%;
 	display: block;
+	height: auto;
 }
 .segundo {
 	width: 100%;
