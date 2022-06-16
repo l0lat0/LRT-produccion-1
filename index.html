@@ -15,12 +15,12 @@
 		<a href="index.html">
 			<img src="imagenes/abstract_logo_este.png" alt="logo Abstract">
 		</a>
-	</div>
-	
-		<nav>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
- </a>
+ 		</a>
+	</div>
+		<nav id="navegador">
+			
 		<ul>
 		<li><a href= "index.html" >resumen</a></li>
 		<li><a href= "prensa.html" >prensa</a></li>
@@ -83,4 +83,14 @@
 		
 	</footer>
 </body>
+<script type="text/javascript">
+	function myFunction (){
+let x = document.getElementById ('navegador');
+	if (x.className !== 'responsive'){
+		x.className = 'responsive';
+	}
+	else {
+			x.className =''}
+	}
+</script>
 </html>

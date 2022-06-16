@@ -163,11 +163,18 @@ footer{
 	display: none;
 }
 @media screen and (max-width: 480px) {
+	header {flex-wrap: wrap;}
 nav ul { display: none; }
 .icon { display: block;  }
 section {
 	max-width: 480px;
 	width: 100%;
+}
+header div, header a{
+	flex: 1 o 50%;
+}
+header nav {
+	flex-basis: 100%;
 }
 .fondo{
 	background-image: url("../imagenes/OXMAN-OFF.png");
@@ -177,6 +184,10 @@ section {
 	width: 100%;
 	display: block;
 	
+}
+nav .responsive ul {
+	display: block;
+	width: 100%;
 }
 .primero{
 	width: 100%;
