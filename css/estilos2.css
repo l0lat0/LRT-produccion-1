@@ -210,10 +210,6 @@ header div, header a{
 header nav {
 	flex-basis: 100%;
 }
-.fondo{
-	background-image: url("../imagenes/OXMAN-OFF.png");
-	height: auto;
-}
 .fondo_secundario{
 	width: 100%;
 	display: block;
@@ -242,6 +238,30 @@ nav.responsive ul {
 	object-position: center;
 	display: block;
 	text-decoration: none;
+}
+input[type=comentario] {
+  padding: 1rem;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+  margin:1rem 0;
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+input[type=email] {
+  padding-left: 0,5rem;
+  padding:0,5rem;
+  margin:1rem 0;
+  border-radius: 1rem;
+  width: 100%;
+}
+input[type=text] {
+  padding: 0,5rem;
+  padding-left:0,5rem;
+  margin:1rem 0;
+  border-radius: 1rem;
+width: 100%;
 }
 footer{
 	padding-top: 3rem;
