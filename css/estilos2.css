@@ -34,6 +34,14 @@ a{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5rem;
 	color: darkblue;
+	 box-shadow: inset 0 0 0 0 darkblue;
+	margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 darkblue;
+  color: F8F6F6;
 }
 section article {
 	padding-top: 2%;
@@ -58,14 +66,8 @@ h1 {
 	margin-left: auto;
 
 }
-.fondo{
-	background-image: url("../imagenes/OXMAN-OFF.png");
-	width: 100%;
-	height: auto;
-	object-position: left;
-	padding-left: 10%;
-	background-repeat: no-repeat;
-	background-size: contain;
+.negrita {
+	font-weight: bold;
 }
 .fondo_secundario{
 	width: 33%;
@@ -91,7 +93,7 @@ h1 {
 	font-size: 1rem;
 	color: darkblue;
 	text-align: right;
-	width: 45%;
+	width: 100%;
 	padding-top: 10%;
 	padding-right: 2% ;
 }
