@@ -72,7 +72,7 @@ h1 {
 .imagen_index {
 	width: 100%;
 	height: auto;
-	
+
 }
 .fondo_secundario{
 	width: 33%;
@@ -167,6 +167,13 @@ footer{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1rem;
 	color: darkblue;
+}
+input[type=text] {
+  padding: 1rem;
+  padding:1rem;
+  margin:1rem 0;
+  border-radius: 1rem;
+
 }
 .icon {
 	display: none;
