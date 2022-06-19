@@ -181,6 +181,7 @@ input[type=comentario] {
   padding: 1rem;
   padding-top:2rem;
   padding-bottom: 2rem;
+  padding-right: 3rem;
   margin:1rem 0;
   border-radius: 1rem;
   width: 50%;
@@ -189,7 +190,6 @@ input[type=comentario] {
 input[type=email] {
   padding: 1rem;
   padding:1rem;
-  padding-right: 3rem;
   margin:1rem 0;
   border-radius: 1rem;
 }
