@@ -69,6 +69,11 @@ h1 {
 .negrita {
 	font-weight: bold;
 }
+.imagen_index {
+	width: 100%;
+	height: auto;
+	
+}
 .fondo_secundario{
 	width: 33%;
 	height: auto;
