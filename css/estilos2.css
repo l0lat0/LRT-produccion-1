@@ -72,7 +72,7 @@ h1 {
 .imagen_index {
 	width: 50%;
 	height: auto;
-	display: inline-block;
+	display: flex;
 
 }
 .fondo_secundario{
@@ -102,7 +102,7 @@ h1 {
 	width: 50%;
 	padding-top: 10%;
 	padding-right: 2% ;
-	display: inline-block;
+	display: flex;
 }
 .segundo {
 	text-decoration: none;
