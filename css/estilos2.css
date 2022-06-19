@@ -151,7 +151,7 @@ text-decoration: none;
 	font-size: 1rem;
 	color: darkblue;
 	text-align: left;
-	padding-top: 10%;
+	padding-top: 5%;
 	padding-left: 2%;
 	padding-right: 2%;
 	width: 50%;
@@ -175,14 +175,22 @@ input[type=text] {
   padding:1rem;
   margin:1rem 0;
   border-radius: 1rem;
+
 }
 input[type=comentario] {
   padding: 1rem;
   padding:1rem;
   margin:1rem 0;
   border-radius: 1rem;
+  width: 50%;
+  height: auto;
 }
-
+input[type=email] {
+  padding: 1rem;
+  padding:1rem;
+  margin:1rem 0;
+  border-radius: 1rem;
+}
 .icon {
 	display: none;
 }
