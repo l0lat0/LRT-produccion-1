@@ -39,7 +39,7 @@ a{
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-a:hover {
+nav ul li a:hover {
   box-shadow: inset 100px 0 0 0 darkblue;
   color: F8F6F6;
 }
