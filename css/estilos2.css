@@ -126,7 +126,7 @@ text-decoration: none;
 }
 .carrete div {
 	padding-top: 30%;
-	width: 33%;
+	width: 100%;
 
 }
 .carrete img{
@@ -225,6 +225,7 @@ header nav {
 .fondo_secundario{
 	width: 100%;
 	display: block;
+	padding-bottom: 2rem;
 	
 }
 nav ul li {
@@ -232,7 +233,7 @@ nav ul li {
   margin: 0,4rem;
   }
 h1 {
-	width: 1rem;
+	width: auto;
 } 
 nav.responsive ul {
 	display: block;
