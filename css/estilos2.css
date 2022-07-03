@@ -283,6 +283,10 @@ section article {
 	width: 100%;
 	height: auto;
 }
+.imagenform {
+	width: 100%;
+	height: auto;
+}
 input[type=comentario] {
   padding: 1rem;
   padding-top:2rem;
