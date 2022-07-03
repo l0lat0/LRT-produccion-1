@@ -51,6 +51,8 @@ section article {
 	display: inline-block;
 padding-right: 1rem;
 padding-bottom: 1rem;
+padding-left: 1rem;
+width: 100%;
 object-position: center;
 
 	
@@ -284,8 +286,18 @@ section article {
 	height: auto;
 }
 .imagenform {
-	width: 100%;
-	height: auto;
+	width: 49%;
+height: auto;
+object-position: left;
+padding-top: 1%;
+padding-left: 5%;
+display: inline-block;
+text-decoration: none;
+font-family: 'Quicksand', sans-serif;
+font-size: 1rem;
+color: darkblue;
+text-align: justify;
+padding-right: 5%;
 }
 input[type=comentario] {
   padding: 1rem;
