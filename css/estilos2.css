@@ -6,6 +6,10 @@
 body{
 	background-color: F8F6F6;
 }
+.imagenform {
+	width: 50%;
+	height: auto;
+}
 header{
 	padding-top: 2%;
 	padding-right: 7%;
